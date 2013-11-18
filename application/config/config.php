@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/campus/';
+$config['base_url']	= 'http://localhost/proyecto2/';
 
 /*
 |--------------------------------------------------------------------------
