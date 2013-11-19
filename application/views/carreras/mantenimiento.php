@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>Career's Management</title>
+<meta charset="utf-8" />
+        
+<title>Career's Management</title>
 <?php 
 foreach($css_files as $file): ?>
 	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
@@ -28,10 +29,13 @@ a:hover
 </style>
 </head>
 <body>
-	<h1>Career's Management</h1>
+    <h1>Career's Management</h1>
     <div>
-		<?php echo $output; ?>
+        <?php echo $output; ?>
     </div>
+    <br>    
+    <a href=<?php echo base_url();?> >Return</a>	
+   
 </body>
 </html>
 

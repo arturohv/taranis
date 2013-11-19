@@ -32,5 +32,7 @@ a:hover
     <div>
 		<?php echo $output; ?>
     </div>
+        <br>    
+    <a href=<?php echo base_url();?> >Return</a>
 </body>
 </html>

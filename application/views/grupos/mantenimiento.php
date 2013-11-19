@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Professor's Management</title>
+	<title>Group's Management</title>
 <?php 
 foreach($css_files as $file): ?>
 	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
@@ -28,11 +28,14 @@ a:hover
 </style>
 </head>
 <body>
-	<h1>Professor's Management</h1>
+	<h1>Group's Management</h1>
     <div>
-		<?php echo $output; ?>
+	<?php echo $output; ?>
     </div>
         <br>    
     <a href=<?php echo base_url();?> >Return</a>
 </body>
 </html>
+
+
+
