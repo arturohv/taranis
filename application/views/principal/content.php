@@ -35,6 +35,8 @@
          <li>
 	<a data-transition="fade" data-theme="" data-icon="plus" onclick="window.open('index.php/matriculas/mantenimiento','_self')">
 	Registration</a>
+        <a data-transition="fade" data-theme="" data-icon="plus" onclick="window.open('index.php/usuarios/mantenimiento','_self')">
+	Users</a>     
 	</li>        
     </ul>
     </div>
